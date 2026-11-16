@@ -111,6 +111,11 @@ section { padding: 96px 0; }
 .hero .kicker { color: #cfe6e8; }
 .hero .lede { font-size: clamp(1.05rem, 1.8vw, 1.25rem); max-width: 520px; opacity: .95; margin-bottom: 28px; }
 .hero h1 { color: #fff; max-width: 14ch; }
+.hero-brand {
+  font-family: var(--serif); font-size: clamp(2.4rem, 6vw, 4.5rem); font-weight: 600;
+  line-height: 1; margin: 0 0 14px; color: #fff; letter-spacing: .02em;
+}
+.address { color: var(--muted); margin-top: 8px; }
 
 /* Intro */
 .intro { padding-bottom: 72px; }
